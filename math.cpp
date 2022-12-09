@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-
-void Log(const char* message);
+#include "Main.h"
 
 int Multiply(int a, int b)
 {
@@ -11,6 +10,10 @@ int Multiply(int a, int b)
 
 int main()
 {
+    PlusResult(2, 5);
+    PlusResult(7, 9);
+    PlusResult(11, 9);
+
     cout << Multiply(5, 8) << endl;
     cin.get();
 }
