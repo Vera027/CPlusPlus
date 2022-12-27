@@ -1,6 +1,7 @@
 #include <iostream>
-using namespace std;
 #include "Main.h"
+using namespace std;
+
 
 int Multiply(int a, int b)
 {
